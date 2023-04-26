@@ -1,0 +1,36 @@
+body {
+  font-family: "Brush Script MT", cursive;
+}
+
+.named-numbers-table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.named-numbers-table td, .named-numbers-table th {
+  border: 1px solid #bbbbbb;
+  padding: 10px 50px;
+}
+.named-numbers-table tr:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.named-numbers-table th {
+  background-color: rgba(238, 238, 238, 0.7);
+}
+.named-numbers-table td {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.named-numbers-table td:nth-child(2) {
+  font-family: "Rock Salt", cursive;
+  font-size: small;
+}
+.named-numbers-table td:nth-child(2):hover {
+  color: blue;
+}
+
+body {
+  background-image: url("resources/background-number.svg");
+  background-blend-mode: over;
+}/*# sourceMappingURL=styles.css.map */

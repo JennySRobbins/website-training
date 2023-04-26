@@ -1,0 +1,40 @@
+$numbersTableColour: rgb(200, 200, 200);
+
+body {
+    font-family: "Brush Script MT", cursive;
+  }
+  
+  .named-numbers-table {
+    border-collapse: collapse;
+    border: 2px solid $numbersTableColour;
+    letter-spacing: 1px;
+    font-size: 1rem;
+
+    td, th {
+      border: 1px solid darken($numbersTableColour, 5);
+      padding: 10px 50px;
+    }
+
+    tr:hover {
+      background-color: transparentize(red, 0.8)
+    }
+    
+    th {
+      background-color: transparentize(lighten($numbersTableColour, 15), 0.3);
+    }
+    
+    td {
+      text-align: center;
+      background-color: transparentize(white, 0.4);
+    }
+    td:nth-child(2) {
+      font-family: 'Rock Salt', cursive;
+      font-size: small;
+      &:hover{color: blue;}
+    }
+  }
+
+  body {
+    background-image: url("resources/background-number.svg");
+    background-blend-mode: over;
+  }

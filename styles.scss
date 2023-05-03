@@ -3,6 +3,10 @@ $numbersTableColour: rgb(200, 200, 200);
 body {
     font-family: "Brush Script MT", cursive;
   }
+
+  .table-and-gif {
+    display: flex
+  }
   
   .named-numbers-table {
     border-collapse: collapse;
@@ -37,4 +41,8 @@ body {
   body {
     background-image: url("resources/background-number.svg");
     background-blend-mode: over;
+  }
+
+  iframe {
+    border: none;
   }

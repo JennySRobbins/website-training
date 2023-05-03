@@ -2,6 +2,10 @@ body {
   font-family: "Brush Script MT", cursive;
 }
 
+.table-and-gif {
+  display: flex;
+}
+
 .named-numbers-table {
   border-collapse: collapse;
   border: 2px solid rgb(200, 200, 200);
@@ -33,4 +37,8 @@ body {
 body {
   background-image: url("resources/background-number.svg");
   background-blend-mode: over;
+}
+
+iframe {
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
